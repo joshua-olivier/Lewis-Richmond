@@ -7,11 +7,17 @@ Lewis & Richmond is a Real Estate Webiste. This website has no intentions of tro
 
 If you have any problems, questions, ideas or suggestions for new projects, feel free to send me an e-mail at joshuaolivierr@gmail.com.
 
+
 All contributors that have helped me throughout this project will be in the list down below:
+-
+-
+-
+
 == GitHub ==
 
 If you want to see open-source code projects, my GitHub is: https://github.com/joshua-olivier
 
+
 == Rules ==
 
-YOU CAN USE THIS WEBSITE AS LONG AS IT'S FOR PERSONAL USE ONLY!
+YOU CAN USE THIS WEBSITE AS LONG AS IT'S FOR PERSONAL USE ONLY!!!
