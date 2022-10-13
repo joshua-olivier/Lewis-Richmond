@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Acre";
+    src: url(Jonathan\ Ball\ -\ Acre-Medium.otf);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Acre";
+    background-color: #000000;
+    color: #EBE9D6;
+}
+
+/*Navigation bar*/
+nav {
+    width: 100%;
+    background-color: #000000;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #EBE9D6;
+}
+
+.nav-item:hover {
+    background-color: #EBE9D6;
+}
+
+.nav-item:hover a {
+    color: black;
+}
+
+/*logo-position*/
+.logo {
+    display: inline-block;
+}
+
+
+/*logo image size*/
+.logo img {
+    width: 70px;
+    vertical-align: middle;
+}
+
+/*Logo width*/
+img {
+    width: 83px;
+}
+
+/*Loader position in webpages*/
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #EBE9D6;
+    border-radius: 50%;
+    border-top: 16px solid black;
+    ;
+    ;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+/*Loader animation*/
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#myDiv {
+    display: none;
+    text-align: center;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.homepage {
+    width: 100%;
+    margin-top: -2.4pc;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -690%);
+    color: #EBE9D6;
+    font-size: 50px;
+}
+
+.homepage-heading {
+    font-size: 27px;
+}
+
+hr {
+    border: 1.4px solid #EBE9D6;
+    margin-left: 20pc;
+    margin-right: 20pc
+}
+
+.under-heading-txt {
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 20pc;
+    margin-right: 20pc;
+}
+
+.our-homes {
+    text-align: center;
+}
+
+/*Product card*/
+.card {
+    width: 27%;
+    background-color: rgb(30, 30, 30);
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+    background-size: contain;
+}
+
+/*Button from product card*/
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: unset;
+
+}
+
+.button5 {
+    background-color: rgb(0, 0, 0);
+    color: #EBE9D6;
+    border: 2px solid #EBE9D6;
+}
+
+.button5:hover {
+    background-color: #EBE9D6;
+    color: #000000;
+}
+
+.waw {
+    text-align: left;
+    margin-left: 8pc;
+    margin-right: 8pc;
+    line-height: 3;
+}
+
+input[type=text],select,textarea {
+    width: 100%;
+    padding: 12px;
+    font-family: "Acre";
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+

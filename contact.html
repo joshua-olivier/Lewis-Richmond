@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Lewis & Richmond</title>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <img src="lewis-richmond.png" alt="Logo">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="properties.html">Properties</a></li>
+            <li class="nav-item"><a href="about-us.html">About us</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Loader-->
+    <div class="windows8">
+        <div class="wBall" id="wBall_1">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_2">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_3">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_4">
+            <div class="wInnerBall"></div>
+        </div>
+        <div class="wBall" id="wBall_5">
+            <div class="wInnerBall"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!--Displays the informations/text after the loader-->
+
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <form action="action_page.php" style="margin-left: 7pc; margin-right: 7pc;">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="france">France</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="korea">Korea</option>
+                        <option value="japan">Japan</option>
+                        <option value="china">China</option>
+                        <option value="australia">Australia</option>
+                        <option value="new-zealand">New Zealand</option>
+                        <option value="india">India</option>
+                        <option value="germany">Germany</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="spain">Spain</option>
+                        <option value="italy">Italy</option>
+                        <option value="UK">UK</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+                    </textarea>
+                </form>
+                <p><button onclick="document.location='finish.html'" class="button button5">Submit</button>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </body>
+</body>
+
+</html>
