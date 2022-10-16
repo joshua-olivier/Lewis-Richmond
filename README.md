@@ -1,7 +1,7 @@
 # Lewis & Richmond
 == Description ==
 
-Lewis & Richmond is a Real Estate Webiste. This website has no intentions of trolling someone but the show the viewer the types of imaginary homes sold in the website. Built on HTML/CSS and with a little bit of functional programming on Javascript, this fake real estate website mainly sells luxury homes and apartments online for homebuyers. Each home has a different price. From cheap to expensive, and they are embedded in product cards that you will see as you open up the website.
+Lewis & Richmond is a Real Estate Webiste. This website has no intentions of trolling someone but to show the viewer the types of imaginary homes sold in the website. Built on HTML/CSS and with a little bit of functional programming on Javascript, this fake real estate website mainly sells luxury homes and apartments online for homebuyers. Each home has a different price. From cheap to expensive, and they are embedded in product cards that you will see as you open up the website.
 
 == Contact ==
 
