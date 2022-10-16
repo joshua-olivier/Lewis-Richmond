@@ -7,6 +7,8 @@ Lewis & Richmond is a Real Estate Webiste. This website has no intentions of tro
 
 If you have any problems, questions, ideas or suggestions for new projects, feel free to send me an e-mail at joshuaolivierr@gmail.com.
 
+Disclaimer: Don't send me your inquiries on the contact page from this website, because I will not receive anything. I did not include an automatic e-mail sender. 
+
 
 All contributors that have helped me throughout this project will be in the list down below:
 -
