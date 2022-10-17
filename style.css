@@ -1,3 +1,4 @@
+/*Font type*/
 @font-face {
     font-family: "Acre";
     src: url(Jonathan\ Ball\ -\ Acre-Medium.otf);
@@ -32,11 +33,13 @@ nav {
     align-items: center;
 }
 
+/*Link to additional pages*/
 .nav-links {
     list-style: none;
     display: flex;
 }
 
+/*Buttons*/
 .nav-item a {
     display: inline-block;
     padding: 10px 15px;
@@ -44,10 +47,12 @@ nav {
     color: #EBE9D6;
 }
 
+/*Button background color before its hover*/
 .nav-item:hover {
     background-color: #EBE9D6;
 }
 
+/*Button background color after its hover*/
 .nav-item:hover a {
     color: black;
 }
@@ -151,6 +156,7 @@ img {
     margin-top: -2.4pc;
 }
 
+/*Centered text*/
 .centered {
     position: absolute;
     top: 50%;
@@ -164,12 +170,14 @@ img {
     font-size: 27px;
 }
 
+/*Horizontal rule*/
 hr {
     border: 1.4px solid #EBE9D6;
     margin-left: 20pc;
     margin-right: 20pc
 }
 
+/*Text under heading*/
 .under-heading-txt {
     font-size: 19px;
     font-weight: 300;
@@ -205,12 +213,14 @@ hr {
 
 }
 
+/*Buttons from product cards*/
 .button5 {
     background-color: rgb(0, 0, 0);
     color: #EBE9D6;
     border: 2px solid #EBE9D6;
 }
 
+/*Button background as it hovers*/
 .button5:hover {
     background-color: #EBE9D6;
     color: #000000;
